@@ -132,6 +132,8 @@
 //
 #define HEATER_0_PIN       13   // (extruder)
 #define HEATER_BED_PIN     12   // (bed)
+#define TEMP_CHAMBER_PIN   27   // (Chamber)
+
 
 #ifndef FAN_PIN
   #define FAN_PIN           4
@@ -155,7 +157,6 @@
 #if HAS_SPI_LCD
   #define LCD_SDSS           28
   #if ENABLED(ADC_KEYPAD)
-    #define SERVO0_PIN       27   // free for BLTouch/3D-Touch
     #define LCD_PINS_RS      28
     #define LCD_PINS_ENABLE  29
     #define LCD_PINS_D4      10
