@@ -921,7 +921,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { -35, 5, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { -35, -5, 0 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1068,7 +1068,7 @@
 #define Y_MIN_POS -10
 
 #define Z_MAX_POS 250
-#define Z_MIN_POS 0
+#define Z_MIN_POS -1
 
 /**
  * Software Endstops
